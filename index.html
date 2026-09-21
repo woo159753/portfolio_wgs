@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>홍길동 — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a class="logo" href="#top" aria-label="홈으로">
+      <span class="logo-mark">H</span>
+      <span class="logo-text">Hong Gildong</span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false">
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav" aria-label="주요">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Software Engineer</p>
+        <h1>홍길동</h1>
+        <p class="lede">
+          제품의 결을 살리는 인터페이스와,<br />
+          오래 가는 웹을 만듭니다.
+        </p>
+        <a class="btn" href="#work">프로젝트 보기</a>
+      </div>
+      <div class="hero-visual" role="img" aria-label="어두운 톤의 건축 공간, 히어로 이미지">
+        <img
+          src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1600&q=80"
+          alt="빛과 그림자가 있는 현대적인 건축 공간"
+        />
+      </div>
+    </section>
+
+    <section class="work" id="work">
+      <div class="section-head">
+        <h2>Selected Work</h2>
+        <p>최근 작업 중 두 가지입니다.</p>
+      </div>
+
+      <div class="cards">
+        <a class="card" href="project-atlas.html">
+          <div class="card-media">
+            <img
+              src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80"
+              alt="데이터 대시보드 화면"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-meta">2026 · Product</p>
+            <h3>Atlas Dashboard</h3>
+            <p>운영 지표를 한 화면에서 읽는 B2B 대시보드. 정보 밀도와 가독성의 균형을 맞춘 작업입니다.</p>
+            <ul class="tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+        </a>
+
+        <a class="card" href="project-lumen.html">
+          <div class="card-media">
+            <img
+              src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80"
+              alt="미니멀한 스튜디오 공간"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-meta">2025 · Brand</p>
+            <h3>Lumen Studio</h3>
+            <p>독립 스튜디오를 위한 아카이브형 사이트. 타이포그래피와 여백으로 브랜드 톤을 잡았습니다.</p>
+            <ul class="tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Animation</li>
+            </ul>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h2>About</h2>
+      <p>
+        홍길동입니다. 웹 프론트엔드를 중심으로 제품 UI를 설계하고 구현합니다.
+        복잡한 기능을 단순한 화면으로 옮기는 일을 좋아합니다.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <p>함께 일할 일이 있다면 연락 주세요.</p>
+    <a href="mailto:gildong@example.com">gildong@example.com</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

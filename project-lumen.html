@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lumen Studio — 홍길동</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html" aria-label="홈으로">
+      <span class="logo-mark">H</span>
+      <span class="logo-text">Hong Gildong</span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false">
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav" aria-label="주요">
+      <a href="index.html#work">Work</a>
+      <a href="index.html#about">About</a>
+    </nav>
+  </header>
+
+  <main class="project">
+    <a class="project-back" href="index.html#work">← Work</a>
+    <div class="project-hero">
+      <img
+        src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1600&q=80"
+        alt="미니멀한 스튜디오 공간"
+      />
+    </div>
+    <p class="project-meta">2025 · Brand</p>
+    <h1>Lumen Studio</h1>
+    <div class="project-body">
+      <div>
+        <p>
+          독립 스튜디오의 작업물을 아카이브처럼 보여주는 사이트입니다. 큰 타이포와 넓은 여백으로 브랜드 톤을 잡았습니다.
+        </p>
+        <p>
+          스크롤에 따라 이미지가 천천히 드러나도록 CSS와 바닐라 JavaScript로 가벼운 모션을 더했습니다.
+          콘텐츠가 늘어도 그리드가 무너지지 않도록 카드 비율을 고정했습니다.
+        </p>
+      </div>
+      <ul class="project-facts">
+        <li>역할 <span>Brand / Front-end</span></li>
+        <li>연도 <span>2025</span></li>
+        <li>스택 <span>HTML, CSS, Animation</span></li>
+      </ul>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>함께 일할 일이 있다면 연락 주세요.</p>
+    <a href="mailto:gildong@example.com">gildong@example.com</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

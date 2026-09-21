@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Atlas Dashboard — 홍길동</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html" aria-label="홈으로">
+      <span class="logo-mark">H</span>
+      <span class="logo-text">Hong Gildong</span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false">
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav" aria-label="주요">
+      <a href="index.html#work">Work</a>
+      <a href="index.html#about">About</a>
+    </nav>
+  </header>
+
+  <main class="project">
+    <a class="project-back" href="index.html#work">← Work</a>
+    <div class="project-hero">
+      <img
+        src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1600&q=80"
+        alt="데이터 대시보드 화면"
+      />
+    </div>
+    <p class="project-meta">2026 · Product</p>
+    <h1>Atlas Dashboard</h1>
+    <div class="project-body">
+      <div>
+        <p>
+          운영팀이 매일 보는 지표를 한 화면에 모아, 숫자만 늘어나지 않도록 계층과 여백을 정리한 B2B 대시보드입니다.
+        </p>
+        <p>
+          핵심 KPI를 상단에 고정하고, 상세 차트는 스크롤 구간으로 내려 정보 밀도와 가독성의 균형을 맞췄습니다.
+          HTML, CSS, 바닐라 JavaScript로 필터와 기간 전환을 구현했습니다.
+        </p>
+      </div>
+      <ul class="project-facts">
+        <li>역할 <span>UI / Front-end</span></li>
+        <li>연도 <span>2026</span></li>
+        <li>스택 <span>HTML, CSS, JS</span></li>
+      </ul>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>함께 일할 일이 있다면 연락 주세요.</p>
+    <a href="mailto:gildong@example.com">gildong@example.com</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
